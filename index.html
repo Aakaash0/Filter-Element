@@ -1,32 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Filter image</title>
 </head>
+
 <body>
-    <header>
-<div class="container">
-    <div class="wrapper">
-        <h1>
-            <a href="index.html"title="Filter">
-                <img src="https://placehold.co/110x30" alt="filter logo">
-            </a>
-        </h1>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#FIXME"  title= "Home" class="Home_Active"></a>Home</li>
-                <li><a href="#FIXME"  title= "About"></a>About</li>
-                <li><a href="#FIXME"  title= "Service"></a>Service</li>
-                <li><a href="#FIXME"  title= "Portfolio"></a>Portfolio</li>
-                <li><a href="#FIXME"  title= "Contact"></a>Contact</li>
-            </ul>
-        </nav>
+    <div class="container">
+        <!--header section start-->
+        <header>
+            <div class="wrapper">
+                <h1>
+                    <a href="index.html" title="Filter">
+                        <img src="https://placehold.co/110x30" alt="filter logo">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#FIXME" title="Home" class="Home_Active"></a>Home</li>
+                        <li><a href="#FIXME" title="About"></a>About</li>
+                        <li><a href="#FIXME" title="Service"></a>Service</li>
+                        <li><a href="#FIXME" title="Portfolio"></a>Portfolio</li>
+                        <li><a href="#FIXME" title="Contact"></a>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--header section end-->
+        <!-- Main section start -->
+        <main>
+            <section class="Tabs">
+                <div class="wrapper">
+                    <ul class="tab_lists">
+                        <li class="tab-content active" data-filter="all">
+                            <a href="#FIXME" title="All">All</a>
+                        </li>
+                        <li class="tab-content" data-filter="wallpapers">
+                            <a href="#FIXME" title="Wallpapers">Wallpapers</a>
+                        </li>
+                        <li class="tab-content" data-filter="logos">
+                            <a href="#FIXME" title="Logos">Logos</a>
+                        </li>
+                        <li class="tab-content" data-filter="business-card">
+                            <a href="#FIXME" title="Business card">Business card</a>
+                        </li>
+                        <li class="tab-content" data-filter="stationary">
+                            <a href="#FIXME" title="Stationary">Stationary</a>
+                        </li>
+                        <li class="tab-content" data-filter="websites">
+                            <a href="#FIXME" title="Websites">Websites</a>
+                        </li>
+                        <li class="tab-content" data-filter="mobile-apps">
+                            <a href="#FIXME" title="Mobile Apps">Mobile Apps</a>
+                        </li>
+                    </ul>
+                    <ul class="image-galleries">
+                        <li class="image-gallery blue" data-img-filter="wallpapers">
+                            <img src="https://placehold.co/250x180?text=wallpapers" alt="wallpapers">
+                        </li>
+                        <li class="image-gallery blue" data-img-filter="wallpapers">
+                            <img src="https://placehold.co/250x180?text=wallpapers" alt="wallpapers">
+                        </li>
+                        <li class="image-gallery blue" data-img-filter="wallpapers">
+                            <img src="https://placehold.co/250x180?text=wallpapers" alt="wallpapers">
+                        </li>
+                        <li class="image-gallery red" data-img-filter="logos">
+                            <img src="https://placehold.co/250x180?text=Logo" alt="Logo">
+                        </li>
+                        <li class="image-gallery red" data-img-filter="logos">
+                            <img src="https://placehold.co/250x180?text=Logo" alt="Logo">
+                        </li>
+                        <li class="image-gallery yellow" data-img-filter="stationary">
+                            <img src="https://placehold.co/250x180?text=stationary" alt="stationary">
+                        </li>
+                        <li class="image-gallery yellow" data-img-filter="stationary">
+                            <img src="https://placehold.co/250x180?text=stationary" alt="stationary">
+                        </li>
+                        <li class="image-gallery yellow" data-img-filter="stationary">
+                            <img src="https://placehold.co/250x180?text=stationary" alt="stationary">
+                        </li>
+                        <li class="image-gallery black" data-img-filter="websites">
+                            <img src="https://placehold.co/250x180?text=website" alt="website">
+                        </li>
+                        <li class="image-gallery black" data-img-filter="websites">
+                            <img src="https://placehold.co/250x180?text=website" alt="website">
+                        </li>
+                        <li class="image-gallery green" data-img-filter="business-card">
+                            <img src="https://placehold.co/250x180?text=business-card" alt="business-card">
+                        </li>
+                        <li class="image-gallery green" data-img-filter="business-card">
+                            <img src="https://placehold.co/250x180?text=business-card" alt="business-card">
+                        </li>
+                        <li class="image-gallery green" data-img-filter="business-card">
+                            <img src="https://placehold.co/250x180?text=business-card" alt="business-card">
+                        </li>
+                        <li class="image-gallery grey" data-img-filter="mobile-apps">
+                            <img src="https://placehold.co/250x180?text=mobile-apps" alt="mobile-apps">
+                        </li>
+                        <li class="image-gallery grey" data-img-filter="mobile-apps">
+                            <img src="https://placehold.co/250x180?text=mobile-apps" alt="mobile-apps">
+                        </li>
+                        <li class="image-gallery grey" data-img-filter="mobile-apps">
+                            <img src="https://placehold.co/250x180?text=mobile-apps " alt="mobile-apps">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!-- Main section end -->
+        <!-- Footer start -->
+        <footer>
+            <div class="wrapper">
+                <div class="footer-part">
+                  <div class="widget-text">
+                    <h3>text widget</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil earum quae, distinctio dolore, ut quod,
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, hic voluptate.
+                    </p>
+                  </div>
+                  <div class="posts">
+                    <h3>recent post</h3>
+                    <ul class="recents">
+                      <li>New Search Platform Update</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <li>Envato Staff vs Community Nike+competition</li>
+                    </ul>
+                  </div>
+                  <div class="popular-tags">
+                    <h3>Popular Tags</h3>
+                    <ul class="tags-btn">
+                      <li><a href="#FIXME" title="Illustration">illustration</a></li>
+                      <li><a href="#FIXME" title="Minimal">minimal</a></li>
+                      <li><a href="#FIXME" title="Coding" class="coding">coding</a></li>
+                      <li><a href="#FIXME" title="Html">html</a></li>
+                      <li><a href="#FIXME" title="Printing">printing</a></li>
+                      <li><a href="#FIXME" title="Illustration">illustration</a></li>
+                    </ul>
+                  </div>
+                  <div class="flicker-gallery">
+                    <h3>Flicker Galery</h3>
+                    <ul class="flicker-pics">
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                      <li><img src="https://via.placeholder.com/50x50" alt="flicker image"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="copyright-part">
+                  <p>&copy; 2014 Nerva, All Rights Reserved</p>
+                  <ul class="social-links">
+                    <li><a href="#FIXME" title="Google-plus" class="google">google</a></li>
+                    <li><a href="#FIXME" title="Twitter" class="twitter">twitter</a></li>
+                    <li><a href="#FIXME" title="Pintrest" class="pintrest">pintrest</a></li>
+                    <li><a href="#FIXME" title="Xbox" class="dribble">dribble</a></li>
+                    <li><a href="#FIXME" title="Indeed" class="Linkedin">Linkedin</a></li>
+                    <li><a href="#FIXME" title="Facebook" class="facebook">facebook</a></li>
+                  </ul>
+                </div>
+              </div>
+        </footer>
+        <!-- Footer end  -->
     </div>
-</div>
-</header>
-<script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
+
 </html>
