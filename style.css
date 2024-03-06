@@ -86,3 +86,61 @@ nav {
     padding-bottom: 12px;
     border-bottom: 4px solid #8FD0A6;
 }
+
+/* main section css */
+.Tabs {
+    padding-top: 20px;
+    background-color: #1f1f1f;
+}
+
+.Tabs .wrapper {
+    width: 80%;
+    border-bottom: 1px solid #282828;
+}
+
+.tab_lists {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-content a {
+    margin: 0 5px;
+    padding: 3px 8px;
+    color: #B2B2B2;
+    font-size: 12px;
+}
+
+.active a {
+    color: #fff;
+}
+
+.tab-content.active {
+    background-color: #219fda;
+}
+
+.tab-content a:hover {
+    background-color: #219fda;
+    color: #FFF;
+}
+
+.image-galleries {
+    margin: 0 5px;
+    padding: 35px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-galleries .image-gallery.hide {
+    display: none;
+}
+
+.image-galleries .image-gallery.show {
+    display: block;
+}
+
+.image-gallery {
+    margin: 0 2px;
+}
+
+/* Main section ends */
