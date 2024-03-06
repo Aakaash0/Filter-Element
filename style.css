@@ -1,22 +1,88 @@
-*{
+*,
+h1 {
     margin: 0;
     padding: 0;
 }
+
 body {
     box-sizing: border-box;
     font-family: sans-serif;
-  }
-  
-  a { 
+}
+
+a {
     display: inline-block;
-    text-decoration: none; 
-  }
-  
-  li {
+    text-decoration: none;
+}
+
+li {
     display: inline-block;
     list-style-type: none;
-  }
+}
 
-  .nav-links{
+.nav-links {
     display: flex;
-  }
+}
+
+.wrapper {
+    max-width: 1360px;
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+/* css start from here */
+header {
+    background-color: #1f1f1f;
+}
+
+header .wrapper {
+    width: 75.5%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.wrapper h1 {
+    padding-top: 2px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav {
+    width: 46%;
+}
+
+.nav-links {
+    padding-top: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    margin: 0;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.nav-links li a:hover {
+    padding-bottom: 12px;
+    border-bottom: 4px solid #8FD0A6;
+    color: #8FD0A6;
+}
+
+.Home_Active {
+    padding-bottom: 12px;
+    border-bottom: 4px solid #8FD0A6;
+}
